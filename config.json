@@ -1,0 +1,27 @@
+{
+    "id":                 "embedanything",
+    "name":               "Embed Anything",
+    "description":        "Embed Anything (Youtube, Slideshare, ...)",
+    "type":               "contrib",
+    "enabled":            true,
+    "hasSettings":        true,
+    "url":                "/devwidgets/embedanything/embedanything.html",
+    "img":                "/devwidgets/embedanything/images/embedanything.png",
+    "i18n": {
+        "default": {
+            "bundle":        "/devwidgets/embedanything/bundles/default.properties",
+            "name":           "Embed Anything",
+            "description":    "Embed Anything"
+        },
+        "nl_NL": {
+            "bundle":        "/devwidgets/embedanything/bundles/nl_NL.properties"
+        }
+    },
+    "personalportal":     true,
+    "sakaidocs":          true,
+    "showinsakaigoodies": true,
+    "groupdashboard":     false,
+    "grouppages":         false,
+    "userdashboard":      false,
+    "userpages":          false
+}
