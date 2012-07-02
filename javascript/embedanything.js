@@ -128,7 +128,7 @@ require(['jquery', 'sakai/sakai.api.core'], function($, sakai) {
                 function(success, data) {
                     if (success) {
                         // Settings finished, switch to Main view
-                        sakai.api.Widgets.Container.informFinish(tuid, 'embedanything');
+                        sakai.api.Widgets.Container.informCancel(tuid, 'embedanything');
                     }
                 }
             );
